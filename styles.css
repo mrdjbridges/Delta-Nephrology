@@ -1,0 +1,55 @@
+body, html {
+    height: 100%;
+    max-width:85%;
+margin:auto;
+}
+
+.logo{
+  height:100px;
+  width:100px;
+}
+
+.NavTextD{
+  color:red;
+  font-family: "Calibri";
+}
+
+.NavTextN{
+  color: #1f496b;
+  font-family: "Calibri";
+}
+
+.nav-link{
+  font-size:1.2em;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("drsi.jpg");
+
+  /* Half height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Image properties*/
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+}
+
+.underNavLink:link{
+
+  font-family: "Calibri";
+  color:white;
+  text-decoration: none;
+  font-style:oblique;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.phoneLogo{
+  height:42px;
+}
